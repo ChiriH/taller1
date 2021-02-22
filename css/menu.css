@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  body{
+
+  }
+  header{
+    position: fixed;
+    z-index: 2;
+    width: 30%;
+    
+    display: right;
+    align-items: center;
+    padding: 20px 10%;
+    background: black;
+    
+    margin-left: 60%;
+  }
+  
+  .menu{
+    font-family: "Product Sans Regular";
+    list-style: none;
+  }
+  .menu li{
+    display: inline-block;
+    padding: 0px 20px;
+  }
+  .menu li a{
+    font-weight: 500;
+    color: yellow;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+  }
+  .menu li a:hover{
+    color: white;
+  }
+  .menu li .active{
+    color: white;
+    font-weight: bold;
+  }
+  .menu li .active:hover{
+    color: yellow;
+  
+  
+  }
