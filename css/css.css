@@ -70,9 +70,11 @@ h3{
 .d3 > .fotos{
     display: flex;
 }
-.d3 > .fotos:hover div{
-    background: rgb(0, 0, 0, 0.7);
+.d3 > .fotos #cr7:hover img{
+    opacity: 0.7;
 }
+.d3 > .fotos #messi:hover img{
+    
 #cr7{
     margin-right: 2%;
     margin-left: 10%;
